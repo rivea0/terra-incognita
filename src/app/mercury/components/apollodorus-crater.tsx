@@ -15,6 +15,7 @@ export default function ApollodorusCrater() {
       title='The Apollodorus Crater'  
       lines={lines}
       images={images}
+      height={400}
     />
   )
 }

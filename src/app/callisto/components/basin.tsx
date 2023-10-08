@@ -14,8 +14,8 @@ export default function Basin() {
       title='The Callisto Basin'
       lines={lines}
       images={images}
-      // width={200}
-      // height={500}
+      width={500}
+      height={400}
     />
   )
 }

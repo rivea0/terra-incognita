@@ -14,6 +14,8 @@ export default function Auroras() {
       title='Saturn Auroras'
       lines={lines}
       images={images}
+      width={400}
+      height={500}
       videoSrc='/media/saturn/PIA11832-aurora.mov'
     />
   )
