@@ -10,10 +10,10 @@ export default function Page() {
     <>
       <h1 className={styles.name}>Ganymede</h1>
       <div className={styles.hero}>
-        <div>
-          <p>poem line one</p>
-          <p>poem line two</p>
-          <p>poem line three</p>
+        <div className={styles.poem}>
+          <p><em>The biggest moon in our solar system</em></p>
+          <p><em>alluring to scuba divers</em></p>
+          <p><em>with an icy coating containing liquid underneath</em></p>
         </div>
         <Image 
           src="/media/ganymede/PIA02862.jpg"

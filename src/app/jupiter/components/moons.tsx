@@ -16,7 +16,7 @@ export default function Moons() {
       lines={lines}
       images={images}
       width={500}
-      height={200}
+      height={150}
     />
   )
 }

@@ -10,10 +10,10 @@ export default function Page() {
     <>
       <h1 className={styles.name}>Europa</h1>
       <div className={styles.hero}>
-        <div>
-          <p>poem line one</p>
-          <p>poem line two</p>
-          <p>poem line three</p>
+        <div className={styles.poem}>
+          <p><em>Makes the most of the gravitational tugs it experiences</em></p>
+          <p><em>A mystery awaits</em></p>
+          <p><em>Who knows what is lurking under its icy layers?</em></p>
         </div>
         <Image 
           src="/media/europa/PIA19048-europa-main.jpg"
