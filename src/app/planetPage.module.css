@@ -1,0 +1,82 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0 4rem;
+}
+
+.name {
+  text-align: center;
+  margin-top: 2rem;
+  color:gainsboro;
+  text-transform: uppercase;
+}
+
+.overview {
+  margin-top: 2rem;
+}
+
+.overview, .attractionsP {
+  padding: 0rem 12rem;
+}
+
+.overview > p {
+  margin: 1rem 0;
+}
+
+.attractionsP {
+  margin: 1rem 0;
+}
+
+.attractions > h2 {
+  color: gainsboro;
+  text-decoration: underline;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.attractions > h3 {
+  font-weight: lighter;
+  color:lightskyblue;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* .poem {
+  padding: 0 0 0 6rem;
+  flex: 1;
+}
+
+.mainVisual {
+  flex: 1;
+} */
+
+@media (orientation: portrait) {
+  .hero {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .mainVisual {
+    width: 100vw;
+  }
+  .imagesContainer > * {
+    width: 100vw;
+  }
+  .overview, .attractionsP, .poem {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mainVisual {
+    width: 50%;
+  }
+}

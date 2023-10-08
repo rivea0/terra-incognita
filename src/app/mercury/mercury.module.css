@@ -1,0 +1,62 @@
+/* .hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.name {
+  text-align: center;
+  margin-top: 1rem;
+  color:gainsboro;
+  text-transform: uppercase;
+}
+
+.overview, .attractionsP {
+  padding: 0rem 12rem;
+}
+
+.overview > p {
+  margin: 1rem 0;
+}
+
+.attractionsP {
+  margin: 1rem 0;
+}
+
+.attractions > h2 {
+  color: gainsboro;
+  text-decoration: underline;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.attractions > h3 {
+  font-weight: lighter;
+  color:lightskyblue;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (orientation: portrait) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .mainVisual {
+    width: 100vw;
+  }
+  .imagesContainer > * {
+    width: 100vw;
+  }
+  .overview, .attractionsP {
+    padding: 0 1rem;
+  }
+
+} */
