@@ -1,3 +1,17 @@
 .footer {
   margin-top: auto;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 1rem 0;
+}
+
+.footer > p {
+  font-size: smaller;
+  margin-left: 1rem;
+}
+
+.footer > p > a {
+  color: steelblue;
 }

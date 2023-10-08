@@ -14,7 +14,7 @@ export default function Page() {
       <div className={styles.hero}>
         <div className={styles.poem}>
           <p><em>Home sweet home</em></p>
-          <p><em>The only spot in the Solar System where you won&apos;t need a space suit</em></p>
+          <p><em>The only spot in the solar system where you won&apos;t need a space suit</em></p>
         </div>
         <video autoPlay loop muted className={styles.mainVisual}>
           <source src="/media/earth/PIA00114.mp4" type="video/mp4" />

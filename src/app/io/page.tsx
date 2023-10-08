@@ -12,10 +12,10 @@ export default function Page() {
     <>
       <h1 className={styles.name}>Io</h1>
       <div className={styles.hero}>
-        <div>
-          <p>poem line one</p>
-          <p>poem line two</p>
-          <p>poem line three</p>
+        <div className={styles.poem}>
+          <p><em>A volcanologist&apos;s paradise</em></p>
+          <p><em>Constantly piqued by Jupiter&apos;s and the other moons&apos; gravitational pull,</em></p>
+          <p><em>Io pukes molten matter</em></p>
         </div>
         <Image 
           src="/media/io/PIA02852.jpg"

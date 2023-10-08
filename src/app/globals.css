@@ -38,9 +38,14 @@ hr {
 
 li {
   list-style: none;
+  margin: 4px 0;
 }
 
 h3 {
   text-decoration: underline;
   margin-top: 2rem;
+}
+
+ul {
+  margin: 1rem 0;
 }

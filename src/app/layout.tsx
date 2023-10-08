@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s | Terra Incognita',
     default: 'Terra Incognita',
   },
-  description: 'Explore the destinations across the Solar System',
+  description: 'Explore the destinations across the solar system',
 }
 
 export default function RootLayout({

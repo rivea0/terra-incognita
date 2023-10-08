@@ -11,10 +11,10 @@ export default function Page() {
     <>
       <h1 className={styles.name}>Jupiter</h1>
       <div className={styles.hero}>
-        <div>
-          <p>poem line one</p>
-          <p>poem line two</p>
-          <p>poem line three</p>
+        <div className={styles.poem}>
+          <p><em>Indeed, Jupiter is a big deal</em></p>
+          <p><em>A father figure of a planet, being the biggest as well as a protective parent.</em></p>
+          <p><em>Think of all the asteroids on their way to Earth which Jupiter deflected</em></p>
         </div>
         <video autoPlay loop muted className={styles.mainVisual} width={500} height={300}>
           <source src="/media/jupiter/PIA22906.mp4" type="video/mp4" />

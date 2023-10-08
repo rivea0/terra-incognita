@@ -11,10 +11,11 @@ export default function Page() {
     <>
       <h1 className={styles.name}>Callisto</h1>
       <div className={styles.hero}>
-        <div>
-          <p>poem line one</p>
-          <p>poem line two</p>
-          <p>poem line three</p>
+        <div className={styles.poem}>
+          <p><em>A moon where time has stopped</em></p>
+          <p><em>Displaying various craters unchanged from the day they were formed.</em></p>
+          <p><em>Another lunar spot for quad biking</em></p>
+          <p><em>where the famed Valhalla awaits curious geologists</em></p>
         </div>
         <Image 
           src="/media/callisto/callisto-main.jpg"

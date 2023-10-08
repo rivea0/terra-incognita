@@ -18,7 +18,7 @@ export default function Page() {
       <h1 className={styles.name}>Mercury</h1>
       <div className={styles.hero}>
         <div className={styles.poem}>
-          <p><em>Smallest and most cratered planet of the Solar System</em></p>
+          <p><em>Smallest and most cratered planet of the solar system</em></p>
           <p><em>A brutish place of hellish days and freezing nights</em></p>
         </div>
         <video autoPlay loop muted className={styles.mainVisual}>

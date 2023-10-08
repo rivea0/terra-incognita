@@ -1,10 +1,12 @@
+import Link from 'next/link'
 import styles from './about.module.css'
 
 export default function Page() {
   return (
     <div className={styles.about}>
-      <h1 style={{margin: '1rem 0'}}>References</h1>
+      <h1 style={{ margin: '1rem 0' }}>References</h1>
       <h2 id="images-used">Image credits</h2>
+      <p>Given with their PIA numbers which can be looked up at the <Link href="https://photojournal.jpl.nasa.gov/Help/PIADetQuery.html">NASA Photojournal</Link>.</p>
       <h3 id="callisto">Callisto</h3>
       <ul>
         <li><strong>PIA03456: Global Callisto in Color</strong>, NASA/JPL/DLR</li>
@@ -26,9 +28,9 @@ export default function Page() {
         <li><strong>PIA16098: Grand Canyon Similar to Mount Sharp</strong>, NASA/JPL-Caltech</li>
         <li><strong>PIA18046: Deadly Everest Avalanche Site Spotted by NASA Spacecraft</strong>, NASA/GSFC/METI/ERSDAC/JAROS, and U.S./Japan ASTER Science Team</li>
         <li><strong>PIA24868: Pamukkale, Turkey</strong>, NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team</li>
-        <li>Dead Sea, <a href="https://earthobservatory.nasa.gov/images/6136/dead-sea">https://earthobservatory.nasa.gov/images/6136/dead-sea</a>, <em>NASA image created by Jesse Allen, Earth Observatory, using data obtained courtesy of the University of Maryland’s <a href="http://glcf.umiacs.umd.edu/index.shtml">Global Land Cover Facility</a>.</em></li>
-        <li>Grand Canyon, <a href="https://earthobservatory.nasa.gov/images/83495/grand-canyon-geology-lessons-on-view">https://earthobservatory.nasa.gov/images/83495/grand-canyon-geology-lessons-on-view</a>, _Astronaut photograph <a href="http://eol.jsc.nasa.gov/scripts/sseop/photo.pl?mission=ISS039&amp;roll=E&amp;frame=5258">ISS039-E-5258</a> was acquired on March 25, 2014, with a Nikon D3S digital camera using a 180 millimeter lens, and is provided by the ISS Crew Earth Observations Facility and the Earth Science and Remote Sensing Unit, Johnson Space Center. The image was taken by the <a href="http://www.nasa.gov/mission_pages/station/expeditions/expedition39/index.html">Expedition 39 crew.</a> It has been cropped and enhanced to improve contrast, and lens artifacts have been removed. The <a href="http://www.nasa.gov/mission_pages/station/main/index.html">International Space Station Program</a> supports the laboratory as part of the <a href="http://www.nasa.gov/mission_pages/station/research/nlab/index.html#.UhUVA-A2JSo">ISS National Lab</a> to help astronauts take pictures of Earth that will be of the greatest value to scientists and the public, and to make those images freely available on the Internet. Additional images taken by astronauts and cosmonauts can be viewed at the NASA/JSC <a href="http://eol.jsc.nasa.gov">Gateway to Astronaut Photography of Earth.</a> Caption by M. Justin Wilkinson, Jacobs at NASA-JSC._</li>
-        <li>Meteor Crater, <a href="https://earthobservatory.nasa.gov/images/39769/fresh-craters-on-the-moon-and-earth">https://earthobservatory.nasa.gov/images/39769/fresh-craters-on-the-moon-and-earth</a>, <em>Lunar image courtesy <a href="http://lroc.sese.asu.edu/">Lunar Reconnaissance Orbiter Camera.</a> Meteor Crater image courtesy the National Map <a href="http://seamless.usgs.gov/index.php">Seamless Server.</a> Caption by Robert Simmon.</em></li>
+        <li>Dead Sea, <Link href="https://earthobservatory.nasa.gov/images/6136/dead-sea">https://earthobservatory.nasa.gov/images/6136/dead-sea</Link>, <em>NASA image created by Jesse Allen, Earth Observatory, using data obtained courtesy of the University of Maryland&apos;s <Link href="http://glcf.umiacs.umd.edu/index.shtml">Global Land Cover Facility</Link>.</em></li>
+        <li>Grand Canyon, <Link href="https://earthobservatory.nasa.gov/images/83495/grand-canyon-geology-lessons-on-view">https://earthobservatory.nasa.gov/images/83495/grand-canyon-geology-lessons-on-view</Link>, _Astronaut photograph <Link href="http://eol.jsc.nasa.gov/scripts/sseop/photo.pl?mission=ISS039&amp;roll=E&amp;frame=5258">ISS039-E-5258</Link> was acquired on March 25, 2014, with a Nikon D3S digital camera using a 180 millimeter lens, and is provided by the ISS Crew Earth Observations Facility and the Earth Science and Remote Sensing Unit, Johnson Space Center. The image was taken by the <Link href="http://www.nasa.gov/mission_pages/station/expeditions/expedition39/index.html">Expedition 39 crew.</Link> It has been cropped and enhanced to improve contrast, and lens artifacts have been removed. The <Link href="http://www.nasa.gov/mission_pages/station/main/index.html">International Space Station Program</Link> supports the laboratory as part of the <Link href="http://www.nasa.gov/mission_pages/station/research/nlab/index.html#.UhUVA-A2JSo">ISS National Lab</Link> to help astronauts take pictures of Earth that will be of the greatest value to scientists and the public, and to make those images freely available on the Internet. Additional images taken by astronauts and cosmonauts can be viewed at the NASA/JSC <Link href="http://eol.jsc.nasa.gov">Gateway to Astronaut Photography of Earth.</Link> Caption by M. Justin Wilkinson, Jacobs at NASA-JSC._</li>
+        <li>Meteor Crater, <Link href="https://earthobservatory.nasa.gov/images/39769/fresh-craters-on-the-moon-and-earth">https://earthobservatory.nasa.gov/images/39769/fresh-craters-on-the-moon-and-earth</Link>, <em>Lunar image courtesy <Link href="http://lroc.sese.asu.edu/">Lunar Reconnaissance Orbiter Camera.</Link> Meteor Crater image courtesy the National Map <Link href="http://seamless.usgs.gov/index.php">Seamless Server.</Link> Caption by Robert Simmon.</em></li>
       </ul>
       <h3 id="enceladus">Enceladus</h3>
       <ul>
@@ -92,7 +94,7 @@ export default function Page() {
         <li><strong>PIA23604: Luminous Clouds</strong>, Image data: NASA/JPL-Caltech/SwRI/MSSS. Image processing by Kevin M. Gill, © CC BY</li>
         <li><strong>PIA24238: A Jupiter Circumpolar Cyclone</strong>, Image data: NASA/JPL-Caltech/SwRI/MSSS. Image processing: Gerald Eichstädt © CC BY</li>
         <li><strong>PIA24293: Roses on Jupiter</strong>, Image data: NASA/JPL-Caltech/SwRI/MSSS. Image processing: Rita Najm © CC BY</li>
-        <li><strong>PIA25692: NASA&#39;s Juno Views Northern Cyclones on Jupiter</strong>, Image data: NASA/JPL-Caltech/SwRI/MSSS. Image processing by Navaneeth Krishnan S <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>
+        <li><strong>PIA25692: NASA&#39;s Juno Views Northern Cyclones on Jupiter</strong>, Image data: NASA/JPL-Caltech/SwRI/MSSS. Image processing by Navaneeth Krishnan S <Link href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</Link></li>
       </ul>
       <h3 id="mars">Mars</h3>
       <ul>
@@ -208,8 +210,8 @@ export default function Page() {
       <h3 id="the-moon">The Moon</h3>
       <ul>
         <li><strong>PIA13501: Impact Melt Features in Tycho Crater&#39;s Floor</strong>, NASA/GSFC/Arizona State University</li>
-        <li><strong>Tycho Crater’s Peak</strong>, <a href="https://www.nasa.gov/image-article/tycho-craters-peak/">https://www.nasa.gov/image-article/tycho-craters-peak/</a>, NASA Goddard/Arizona State University</li>
-        <li><strong>Aristarchus Crater</strong>, <a href="https://moon.nasa.gov/resources/347/aristarchus-crater/?category=images">https://moon.nasa.gov/resources/347/aristarchus-crater/?category=images</a>, NASA/GSFC/Arizona State University</li>
+        <li><strong>Tycho Crater’s Peak</strong>, <Link href="https://www.nasa.gov/image-article/tycho-craters-peak/">https://www.nasa.gov/image-article/tycho-craters-peak/</Link>, NASA Goddard/Arizona State University</li>
+        <li><strong>Aristarchus Crater</strong>, <Link href="https://moon.nasa.gov/resources/347/aristarchus-crater/?category=images">https://moon.nasa.gov/resources/347/aristarchus-crater/?category=images</Link>, NASA/GSFC/Arizona State University</li>
         <li><strong>PIA00094: Limb of Copernicus Impact Crater</strong>, NASA/JPL/USGS</li>
         <li><strong>PIA00225: Far Side of the Moon</strong>, NASA/JPL</li>
         <li><strong>PIA02441: Earth and Moon as Viewed by Mariner 10</strong>, NASA/JPL/Northwestern University</li>
@@ -220,7 +222,7 @@ export default function Page() {
         <li><strong>PIA13964: Absolute Time</strong>, NASA/GSFC/Arizona State University</li>
         <li><strong>PIA15515: Far Side of Moon Imaged by MoonKAM</strong>, NASA/Caltech-JPL/MIT/SRS</li>
         <li><strong>PIA00302: Nearside of Earth&#39;s Moon as Seen by the Clementine Spacecraft</strong>, NASA/JPL/USGS</li>
-        <li><strong>From Earth to the Moon</strong>, <a href="https://moon.nasa.gov/resources/46/from-earth-to-the-moon/">https://moon.nasa.gov/resources/46/from-earth-to-the-moon/</a>, NASA</li>
+        <li><strong>From Earth to the Moon</strong>, <Link href="https://moon.nasa.gov/resources/46/from-earth-to-the-moon/">https://moon.nasa.gov/resources/46/from-earth-to-the-moon/</Link>, NASA</li>
         <li><strong>PIA24439: Apollo Footprint</strong>, NASA</li>
       </ul>
       <h3 id="solar-system">Solar System</h3>
@@ -279,6 +281,15 @@ export default function Page() {
         <li><strong>PIA10124: Approaching Venus Image #2</strong>, NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington</li>
         <li><strong>PIA13001: Surface Warmth on a Venus Volcano</strong>, NASA/JPL-Caltech/ESA</li>
       </ul>
+      <h2 id="icon-info">About the logo and icon</h2>
+      <p id="icon-info">The icon used as the logo and favicon is <Link href="https://www.svgrepo.com/svg/307468/cosmos1-space-cosmos-gravity">Cosmos1 Space Cosmos Gravity SVG Vector</Link> from the <Link href="https://www.svgrepo.com/collection/nature-and-animals-infographic-icons/">Nature And Animals Infographic Icons Collection</Link> on <Link href="https://www.svgrepo.com">SVG Repo</Link>, licensed under CC0.</p>
+      
+      <h2 id="more-info">Information about the solar system objects</h2>
+      <p>For each object&apos;s page, there is a short overview giving basic information about it. For checking the accuracy of the information, <Link href="https://science.nasa.gov/solar-system/">NASA&apos;s Solar System Exploration Hub</Link> is utilized.</p>
+      
+      <h2 id="tech">Technologies used</h2>
+      <p>The website is created with <Link href="https://nextjs.org">Next.js</Link> which uses the <Link href="https://react.dev">React library</Link> under the hood, and is hosted on <Link href="https://vercel.com">Vercel</Link>.</p>
+      <p>The source of this site along with the visuals used <Link href="https://github.com/rivea0/terra-incognita">can be found on GitHub</Link>.</p>
     </div>
   )
 }

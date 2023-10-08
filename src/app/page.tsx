@@ -11,7 +11,7 @@ export default function Home() {
         </h2>
         <Image 
           src="/media/the-solar-system/PIA01341~medium-solar-system.jpg" 
-          alt="Montage of the Solar System"
+          alt="Montage of the solar system"
           width={523}
           height={640}
           className={styles.solarSystemImg}

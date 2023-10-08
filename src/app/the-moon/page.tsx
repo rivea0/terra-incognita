@@ -15,10 +15,10 @@ export default function Page() {
     <>
       <h1 className={styles.name}>The Moon</h1>
       <div className={styles.hero}>
-        <div>
-          <p>poem line one</p>
-          <p>poem line two</p>
-          <p>poem line three</p>
+        <div className={styles.poem}>
+          <p><em>Our companion since time immemorial</em></p>
+          <p><em>You&apos;ll revel in quad biking on the Moon regolith</em></p>
+          <p><em>while enjoying the vistas of our Earth</em></p>
         </div>
         <Image 
           src="/media/the-moon/PIA02441-earth-and-moon.jpg"

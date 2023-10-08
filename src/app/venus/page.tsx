@@ -16,10 +16,11 @@ export default function Page() {
     <>
       <h1 className={styles.name}>Venus</h1>
       <div className={styles.hero}>
-        <div>
-          <p>poem line one</p>
-          <p>poem line two</p>
-          <p>poem line three</p>
+        <div className={styles.poem}>
+          <p><em>Our twin in size</em></p>
+          <p><em>Yet being the complete opposite</em></p>
+          <p><em>A sizzling hot planet where the Sun rises in the west</em></p>
+          <p><em>and sets in the east</em></p>
         </div>
         <Image 
           src="/media/venus/PIA10124-venus.jpg"

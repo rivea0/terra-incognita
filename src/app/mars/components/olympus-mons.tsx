@@ -8,7 +8,7 @@ export default function OlympusMons() {
 
   const lines = [
     'Three times taller than Earth\'s Mount Everest, the volcano Olympus Mons is a must-see. It stretches over about 550 kilometers (340 miles) and is a challenge for trekking aficionados.',
-    'The highest peak of the Solar System awaits those who will dare.'
+    'The highest peak of the solar system awaits those who will dare.'
   ]
 
   return (
