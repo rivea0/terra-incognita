@@ -11,7 +11,7 @@ export default function Header() {
           <h1>Terra Incognita</h1>
         </div>
       </Link>
-      <Link href="/about">About</Link>
+      <Link href="/about" className={styles.aboutLink}>About</Link>
     </header>
   )
 }
